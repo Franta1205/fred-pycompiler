@@ -1,0 +1,14 @@
+from enum import Enum
+from typing import Any
+
+class TokenType(Enum):
+    EOF = "EOF"
+    ILLEGAL = "ILLEGAL"
+
+    INT = "INT"
+    FLOAT = "FLOAT"
+
+    PLUS = "PLUS"
+    MINUS = "MINUS"
+    ASTERISK = "ASTERISK"
+    SLAHS = "SLASH"
